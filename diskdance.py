@@ -1,7 +1,7 @@
 NUMBER_OF_DISKS = 5
 A = list(range(NUMBER_OF_DISKS, 0, -1))
 B = []
-C = []
+C = [] 
 
 def move(n, source, auxiliary, target):
     if n <= 0:
